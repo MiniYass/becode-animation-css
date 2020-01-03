@@ -1,0 +1,113 @@
+body {
+    background-color: white;
+    
+}
+
+button {
+    position: relative;
+    top: -36px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-style: none;
+}
+img{
+    z-index:-1;
+}
+
+h2 {
+    font-weight: lighter;
+    color: red;
+}
+
+div p {
+    visibility: hidden;
+}
+
+.bas{
+    margin: 10px;
+    visibility: visible;
+    background-color: white;
+    display:inline;
+    color: grey;
+}
+#date p{
+    visibility: visible;
+
+}
+
+#date {
+    z-index: 2;
+    margin: 5px;
+    padding: 5px;
+
+    position: absolute;
+    top: 40px;
+    left: 470px;
+    width: 80px;
+    height: 80px;
+
+
+    text-align: center;
+    
+    background-color: red;
+    border-radius: 100%;
+    color: white;
+
+}
+
+
+
+#case {
+    margin: 0px;
+    width: 34%;
+    background-color: white;
+    color: black;
+}
+
+body:hover{
+    
+    
+    div p {
+        visibility: visible;
+    }
+
+    img{
+        animation-name: detail;
+        animation-duration: 4s;
+    }
+
+    #case{
+        z-index: 1;
+        animation-duration:3.5s;
+        animation-name: mouv;
+    }
+}
+
+
+
+@keyframes detail {
+    from {
+        opacity: 100%;
+    }
+
+    to {
+
+        opacity: 45%;
+
+    }
+}
+
+@keyframes mouv {
+    from {
+        
+      height: 300px;
+    
+    }
+
+    to {
+        width: 34%;
+        transform: translateY(-450px);
+        height: 500px;
+    }
+}

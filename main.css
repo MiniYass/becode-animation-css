@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+
+
+p {
+    width: 125px;
+    text-align: center;
+    background-color: black;
+    margin-left: 25em;
+    border: 5px solid white;
+    color: white;
+    padding: 25px;
+
+}
+
+p:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#Gon:hover {
+
+    animation-name: gonfle; 
+    animation-duration: 10s;
+    
+    
+}
+
+#Gli:hover {
+
+    animation-name: glisse;
+    animation-duration: 5s;
+}
+
+@keyframes glisse {
+    from {
+        left: 20px;
+        position: relative;
+    }
+
+    to {
+
+        left: 50em;
+        position: relative;
+
+    }
+}
+
+@keyframes gonfle {
+    from {
+        
+    }
+
+    to {
+        
+        transform:scale(1.8);
+
+    }
+} 

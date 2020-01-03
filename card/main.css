@@ -24,6 +24,13 @@ div p {
   visibility: hidden;
 }
 
+.Timg {
+  color: grey;
+  width: 20px;
+  height: 20px;
+  opacity: 100%;
+}
+
 .bas {
   margin: 10px;
   visibility: visible;

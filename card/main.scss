@@ -12,6 +12,7 @@ button {
     border-style: none;
 }
 img{
+
     z-index:-1;
 }
 
@@ -79,6 +80,8 @@ body:hover{
     }
 
     img{
+        
+        
         animation-name: detail;
         animation-duration: 4s;
     }
@@ -87,6 +90,7 @@ body:hover{
         z-index: 1;
         animation-duration:3.5s;
         animation-name: mouv;
+        
     }
 }
 
